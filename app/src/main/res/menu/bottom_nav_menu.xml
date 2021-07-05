@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:icon="@mipmap/discover_1"
+        android:enabled="true"
+        android:title="@string/title_discover" />
+
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@mipmap/notes1"
+        android:checked="false"
+        android:enabled="true"
+        android:title="@string/title_notes" />
+
+    <item
+        android:id="@+id/navigation_matches"
+        android:icon="@mipmap/matches_1"
+        android:checked="false"
+        android:enabled="true"
+        android:title="@string/title_matches" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@mipmap/profile1_1"
+        android:checked="false"
+        android:enabled="true"
+        android:title="@string/title_profile" />
+
+</menu>
