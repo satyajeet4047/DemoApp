@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mobileNumberFragment">
+    <fragment
+        android:id="@+id/mobileNumberFragment"
+        android:name="com.example.aislechallenge.ui.login.mobilenumber.MobileNumberFragment"
+        android:label="mobile_number_fragment"
+        tools:layout="@layout/mobile_number_fragment" >
+        <action
+            android:id="@+id/action_mobileNumberFragment_to_OTPFragment"
+            app:destination="@id/OTPFragment" />
+        <action
+            android:id="@+id/action_mobileNumberFragment_to_dashboardActivity"
+            app:destination="@id/dashboardActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/OTPFragment"
+        android:name="com.example.aislechallenge.ui.login.otp.OTPFragment"
+        android:label="otp_fragment"
+        tools:layout="@layout/otp_fragment" >
+        <action
+            android:id="@+id/action_OTPFragment_to_dashboardActivity"
+            app:destination="@id/dashboardActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/dashboardActivity"
+        android:name="com.example.aislechallenge.ui.dashboard.DashboardActivity"
+        android:label="activity_dashboard"
+        tools:layout="@layout/activity_dashboard" />
+</navigation>

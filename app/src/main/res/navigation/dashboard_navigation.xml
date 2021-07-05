@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_navigation"
+    app:startDestination="@id/discoveryFragment">
+
+    <fragment
+        android:id="@+id/discoveryFragment"
+        android:name="com.example.aislechallenge.ui.dashboard.discovery.DiscoveryFragment"
+        android:label="discovery_fragment"
+        tools:layout="@layout/discovery_fragment" />
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.example.aislechallenge.ui.dashboard.notes.NotesFragment"
+        android:label="notes_model_fragment"
+        tools:layout="@layout/notes_model_fragment" />
+    <fragment
+        android:id="@+id/matchesFragment"
+        android:name="com.example.aislechallenge.ui.dashboard.matches.MatchesFragment"
+        android:label="matches_fragment"
+        tools:layout="@layout/matches_fragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.aislechallenge.ui.dashboard.profile.ProfileFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

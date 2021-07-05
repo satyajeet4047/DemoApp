@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AisleChallenge</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_matches">Matches</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="get_otp_text">Get OTP</string>
+    <string name="enter_phone_text">Enter Your \nPhone Number</string>
+    <string name="enter_phone_number_hint">Enter you phone number</string>
+    <string name="btn_continue_text">Continue</string>
+    <string name="btn_upgrade_text">Upgrade</string>
+    <string name="interested_in_you_text">Interested In You</string>
+    <string name="premium_member_text">Premium members can <br/>view all their likes at once</string>
+    <string name="personal_message_to_you_text">Personal message To you</string>
+    <string name="notes_title_text">Notes</string>
+    <string name="something_went_wrong">Something Went wrong</string>
+    <string name="try_again">Try Again</string>
+    <string name="enter_the_otp">Enter The \nOTP</string>
+    <string name="enter_otp_hint">Enter OTP</string>
+    <string name="counter_initial_text">00:59</string>
+    <string name="country_code">+91</string>
+    <string name="notes_text">Tap to review %1$s notes</string>
+</resources>
